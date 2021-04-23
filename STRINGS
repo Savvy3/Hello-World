@@ -1,0 +1,14 @@
+// Count number of characters in a string
+
+#include<stdio.h>
+
+char *str;
+int length;
+printf("enter input string");
+gets(str);
+
+for(int i=0; str[i] != '\0';i++)
+{
+  length++;
+}
+printf("\n length of string %d ", length);
